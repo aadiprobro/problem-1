@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d;
+    cout<<"Enter the Working Hours of an Employee."<<endl;
+    cin>>a;
+    cout<<"Enter the Salary of an Hour."<<endl;
+    cin>>b;
+    if (a>=40){
+        int g=40*b;
+        int d=a-40;
+        int e=b/2;
+        int f=d*e;
+        int h=f-g;
+        cout<<"Basic Salary="<<g<<endl;
+        cout<<"Overtime Salary="<<f<<endl;
+        cout<<"Total Salary="<<h<<endl;
+    }else {int l=a*b;
+    cout<<"Salary Of Employee="<<l<<endl;}
+    return 0;
+}
