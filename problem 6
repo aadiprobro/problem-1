@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,tt;
+    cout<<"Enter marks of student 1"<<endl;
+    cin>>a;
+    cout<<"Enter marks of student 2"<<endl;
+    cin>>b;
+    cout<<"Enter marks of student 3"<<endl;
+    cin>>c;
+    cout<<"Enter marks of student 4"<<endl;
+    cin>>d;
+    cout<<"Enter total marks"<<endl;
+    cin>>tt;
+    
+     int pctg= (a+b+c+d/tt)*100;
+     cout<<"Percentage of marks="<<pctg;
+
+    return 0;
+}
