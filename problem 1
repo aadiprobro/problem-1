@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()  
+      {  
+         cout<<" \n Take a pan";
+         cout<<" \n put one cup milk";
+         cour<<"\n now add tea half table spoon";
+         cout<<\n add sugar as per your taste";
+         cout<<\n wait for two boils";
+         cout<<\n Your tea is ready";
+         
+         return 0;
+         }
