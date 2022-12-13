@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    cout<<"Enter number"<<endl;
+    cin>>a;
+    if(a>0&&a>80)
+         {
+           cout<<"GOOD"<<ENDL;
+            }
+    esle 
+         {
+           cout<<"TRY AGAIN";
+            }
+                 
+    return 0;
+}
